@@ -6,7 +6,7 @@ val paradiseVersion = "2.1.0"
 val boilerlessVersion = "0.1-SNAPSHOT"
 
 
-resolvers += Resolver.sonatypeRepo("releases")
+resolvers += Resolver.sonatypeRepo("snapshots")
 
 addCompilerPlugin("org.scalamacros" % "paradise" % paradiseVersion cross CrossVersion.full)
 
